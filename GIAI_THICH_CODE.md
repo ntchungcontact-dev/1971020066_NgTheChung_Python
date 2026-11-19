@@ -488,3 +488,12 @@ Tài liệu này giải thích các lệnh trong từng tệp Python theo thứ 
 - `ban_an.txt`: mỗi dòng có cấu trúc `mã bàn|số bàn|trạng thái`; ví dụ `B001|1|Trống` là bàn mã B001, số 1, đang trống.
 - `mon_an.txt`: mỗi dòng có cấu trúc `mã món|tên món|loại món|đơn giá|trạng thái|số lượng đã gọi`. Đơn giá được đọc thành số thực, số lượng đã gọi thành số nguyên.
 - Các tệp mẫu đang nằm ở thư mục gốc. Riêng `file_io.py` mặc định đọc/ghi trong thư mục `data`, vì vậy đường dẫn thực tế phải khớp vị trí tệp nếu chạy chương trình theo mặc định.
+
+## 12. Chạy ứng dụng trên web bằng Streamlit
+
+- `web_app.py` cung cấp giao diện web cho thực đơn, bàn ăn, gọi món, thanh toán và thống kê; chương trình dòng lệnh `main.py` vẫn dùng được như trước.
+- Cài các thư viện được khai báo trong `requirements.txt` bằng `python -m pip install -r requirements.txt`.
+- Chạy trên máy tính bằng `python -m streamlit run web_app.py`.
+- Để deploy, đẩy `web_app.py`, `requirements.txt`, các tệp `.py` hiện có và thư mục `data` lên GitHub. Trên Streamlit Community Cloud, chọn repo/nhánh rồi đặt `web_app.py` làm Main file path.
+- Ứng dụng lưu thực đơn và bàn vào các tệp `.txt` trong `data`; đơn hàng đang mở và lịch sử hóa đơn của giao diện web nằm trong `data/trang_thai_web.json`.
+- Bản deploy mẫu không đảm bảo dữ liệu ghi vào ổ đĩa được giữ sau khi ứng dụng khởi động lại, và chưa có đăng nhập/phân quyền. Dùng thử hoặc trình diễn thì phù hợp; nếu dùng thực tế, hãy chuyển dữ liệu sang cơ sở dữ liệu có lưu trữ bền vững và bổ sung xác thực.
