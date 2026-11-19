@@ -1,0 +1,23 @@
+01|ga|Món Chính|20000.0|Còn bán|0
+02|com rnag|Món Chính|1000.0|Còn bán|0
+03|coca|Nước uống|10000.0|Còn bán|0
+04|rau trộn|Khai vị|1000.0|Còn bán|0
+M005|Gỏi cuốn tôm thịt|Khai vị|35000.0|Còn bán|0
+M006|Nem rán|Khai vị|40000.0|Còn bán|0
+M007|Chả giò hải sản|Khai vị|45000.0|Còn bán|0
+M008|Súp cua|Khai vị|45000.0|Còn bán|0
+M009|Cơm tấm sườn bì chả|Món chính|55000.0|Còn bán|0
+M010|Bún bò Huế|Món chính|60000.0|Còn bán|0
+M011|Phở bò tái|Món chính|55000.0|Còn bán|0
+M012|Hủ tiếu nam vang|Món chính|55000.0|Còn bán|0
+M013|Bún chả Hà Nội|Món chính|65000.0|Còn bán|0
+M014|Cá kho tộ|Món chính|70000.0|Còn bán|0
+M015|Gà kho sả ớt|Món chính|65000.0|Còn bán|0
+M016|Cơm chiên hải sản|Món chính|60000.0|Còn bán|0
+M017|Bò lúc lắc|Món chính|85000.0|Còn bán|0
+M018|Nước cam ép|Nước uống|30000.0|Còn bán|0
+M019|Trà đào|Nước uống|35000.0|Còn bán|0
+M020|Sinh tố bơ|Nước uống|40000.0|Còn bán|0
+M021|Nước dừa tươi|Nước uống|30000.0|Còn bán|0
+M022|Chè khúc bạch|Tráng miệng|30000.0|Còn bán|0
+M023|Kem dừa|Tráng miệng|28000.0|Còn bán|0

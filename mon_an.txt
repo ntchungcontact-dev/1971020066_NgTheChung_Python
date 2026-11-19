@@ -1,0 +1,10 @@
+M001|Gỏi cuốn|Khai vị|35000.0|Còn bán|0
+M002|Súp cua|Khai vị|45000.0|Còn bán|0
+M003|Cơm chiên dương châu|Món chính|55000.0|Còn bán|0
+M004|Phở bò|Món chính|50000.0|Còn bán|0
+M005|Gà rán|Món chính|65000.0|Còn bán|0
+M006|Cá kho tộ|Món chính|70000.0|Còn bán|0
+M007|Nước cam|Nước uống|25000.0|Còn bán|0
+M008|Trà đá|Nước uống|10000.0|Còn bán|0
+M009|Chè khúc bạch|Tráng miệng|30000.0|Còn bán|0
+M010|Kem dừa|Tráng miệng|28000.0|Hết hàng|0
